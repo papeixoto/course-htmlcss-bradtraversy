@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Em & Rem Units</title>
+  <style>
+    /* #box-1 {
+      font-size: 20px;
+    }
+
+    #box-1 p {
+      font-size: 1.5em;
+      padding: 1em;
+    } */
+
+    /* Don't use EM units since they are confusing */
+    /* Rem is good because of responsiveness and accessibility (browser settings and such) */
+
+    html {
+      font-size: 10px;
+    }
+
+    #box-2 h3 {
+      font-size: 2rem;
+    }
+
+    #box-2 p {
+      font-size: 1.6rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="box-1">
+    <h3>Box One</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia modi excepturi tempora quo et, labore voluptatum
+      nulla nisi neque explicabo possimus, ab optio eos similique. Provident nisi obcaecati maxime earum.</p>
+  </div>
+  <div id="box-2">
+    <h3>Box Two</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia modi excepturi tempora quo et, labore voluptatum
+      nulla nisi neque explicabo possimus, ab optio eos similique. Provident nisi obcaecati maxime earum.</p>
+  </div>
+</body>
+</html>

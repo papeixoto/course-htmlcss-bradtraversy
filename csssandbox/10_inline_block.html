@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline & Block Styling</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    li {
+      display: inline;
+    }
+
+    li a {
+      padding-right: 20px;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+    }
+
+    .box {
+      width: 32.8%;
+      display: inline-block;
+      background-color: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="#">Technology</a></li>
+    <li><a href="#">Business</a></li>
+    <li><a href="#">Fashion</a></li>
+  </ul>
+  <br><br>
+  <img src="./img/leaf.png" alt="My Image">
+
+  <br><br>
+
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sit vero eligendi vel atque? Fugiat ab
+      temporibus dignissimos dolores nulla?</p>
+  </div>
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sit vero eligendi vel atque? Fugiat ab
+      temporibus dignissimos dolores nulla?</p>
+  </div>
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sit vero eligendi vel atque? Fugiat ab
+      temporibus dignissimos dolores nulla?</p>
+  </div>
+</body>
+</html>
+
+<!-- BLOCK: the element occupies the whole line -->
+<!-- INLINE: the element occupies only its space, does not allow width and other css sttributes -->
+<!-- INLINE BLOCK: the element occupies its space and allows CSS properties like width -->
