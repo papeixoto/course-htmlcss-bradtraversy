@@ -27,6 +27,8 @@
       background: #333;
     }
 
+    /* Position relative makes it so you can use top, right, bottom ,and left to position the 
+    RELATIVE to where it would be element */
     #box-1 {
       position: relative;
       z-index: 1;
@@ -35,6 +37,10 @@
       background: red;
     }
 
+    /* Position absolute takes the element out of the document flow, to a layer of its own */
+    /* The properties top, right, move the element having has the starting point the beggining of
+     its "containing element" */
+    /* Containing Element is the first parent to have position different than static */
     #box-2 {
       position: absolute;
       top: 100px;
@@ -49,12 +55,14 @@
       background: green;
     }
 
+    /* fixed takes if from the document flow and fixes it based on the visible portion of the viewport */
     #box-4 {
-      /* fixed takes if from the document flow */
       position: fixed;
       background: blue;
     }
 
+    /* Mix between relative and fixed. Behaves as relatively fixed until it reaches a certain point 
+    (top of page, for example), then becomes fixed*/
     #box-5 {
       position: sticky;
       top: 0;
